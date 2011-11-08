@@ -1,0 +1,39 @@
+\documentclass[9pt,a4paper,cleardoubleempty]{scrbook}
+
+\usepackage{}
+\usepackage[]{classicthesis-ldpkg}
+\usepackage[parts,linedheaders,pdfspacing]{classicthesis}
+
+\usepackage[T1]{fontenc}    % imposta la codifica dei font
+\usepackage[utf8]{inputenc} % lettere accentate da tastiera
+\usepackage[italian]{babel} % per scrivere in italiano
+% \usepackage{layaureo}       % imposta i margini di pagina
+\usepackage{lipsum}         % genera testo fittizio
+\usepackage{indentfirst}
+\usepackage{url}            % per scrivere gli indirizzi Internet
+\hypersetup{pdfborder={0 0 0}}
+\usepackage{allrunes}
+\usepackage{phoenician}
+
+\usepackage{color}
+\definecolor{Brown}{cmyk}{0,0.81,1,0.60}
+\definecolor{OliveGreen}{cmyk}{0.64,0,0.95,0.40}
+\definecolor{CadetBlue}{cmyk}{0.70,0.57,0.23,0}
+
+\usepackage[final]{pdfpages}
+
+\input{VariousStuff/defines}
+\usepackage{}
+\author{Michele "Jazzinghen" Bianchi}
+\title{The Rollers - Secondary Heroes}
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents{}
+
+    \input{Parti/01}
+    \input{Parti/02}
+    \input{Parti/03}
+    \input{Parti/04}
+\end{document}
