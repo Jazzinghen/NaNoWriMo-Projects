@@ -140,7 +140,8 @@
     di quelli \emph{standard}. Siccome non voleva finire dentro una qualche stanza delle guardie decise di prendere un
     foglietto da una delle sue stasche e liberarlo nell'aria. Il foglietto fluttuò per qualche secondo e poi iniziò a
     muoversi verso l'uscita più grande. Era abbastanza naturale, però non si è mai troppo sicuri in queste cose. Catturò
-    il pezzo di carta prima che si allontanasse troppo, se lo rimise in tasca e continuò con la sua esplorazione.
+    il pezzo di carta prima che si allontanasse troppo, se lo rimise in tasca e continuò con la sua esplorazione. Attivò
+    la modalità di visione notturna integrata nei suoi occhi e s'incamminò.
 
     Proseguì per una ventina di metri finchè non arrivò ad una biforcazione. Il tunnel che continuava dritto arrivava a
     quello che sembrava un vicolo cieco, mentre quello che continuava a destra... Anche? Sofia iniziò a rivedere quali
@@ -149,4 +150,54 @@
     direzione. Una volta arrivata in fondo toccò la parete la quale non era in alluminio o acciaio o quello con cui
     erano fatte le altre pareti. Questo era morbido e spugnoso. E, dopo un po', sembrava pizzicare. Ritirò le mani
     d'istinto. Doveva essere un qualche tipo di spugna a nanomacchine per la pulizia dell'aria. Si avvicinò tendendo
-    l'orecchio e riuscì a sentire il rumore soffocato di aspiratori. In qu
+    l'orecchio e riuscì a sentire il rumore soffocato di aspiratori.
+
+    Questo significava che non era quella la direzione da prendere, in realtà, a meno che non volesse trovarsi sparsa
+    su tutte le pareti della camera d'aspirazione del sistema di ventilazione centralizzato del palazzo. Tornò indietro
+    e proseguì per l'altra direzione. La parete di quel vicolo cieco di cisuro sembrava più solida che non il muro
+    spugnoso che aveva incontrato andando verso la camera d'aspirazione. Iniziò ad analizzare i contorni della parete.
+    Se aveva ragione quello era il canale d'accesso per la manutenzione, il quale dava direttamente alla sala macchine.
+    Gli addetti passavano attraverso quel portellone quando dovevano mettere a posto delle pale bloccate oppure dovevano
+    liberarsi di qualche cadavere di animale morto nei condotti.
+
+    Dopo un po' riuscì a notare uno sportellino mimetizzato con la parete, in uno degli angoli tra l'usicta ed il
+    corridoio. Non era facile vederlo perchè i sistemi di visione notturna non aiutavano particolarmente a distinguere i
+    colori. È vero che quelli di ultima generazione facevano interpolazione di dati per migliorare l'immagine. Ma quando
+    non c'è luce per fare sampling dei colori... Non ce n'è, non ci sono cazzi. Perciò dovette far collaborare la sua
+    vista col tatto per capire che quello era uno sportello per la manutenzione elettronica e non semplicemente del
+    rumore nei suoi occhi generato dall'amplificazione del segnale visivo.
+
+    Rimosse la piccola lamina di metallo usando uno dei cacciaviti che aveva nello zainetto, la quale rivelò un piccolo
+    monitor LCD ed un connettore universale. Era un pannello d'accesso per la diagnosi dei sistemi elettronici della
+    porta. Aveva delle routine automatiche che gli addetti alle riparazioni potevano usare per controllare se la porta
+    funzionava correttamente. Avrebbe dovuto hackare il sistema, visto che, normalmente, questi sistemi avevano un ciclo
+    di tests che prevedevano l'apertura e la chiusura dei Lock magnetici in rapida successione. In pratica si sarebbe
+    dovuta infiltrare nel sistema di test e bloccarlo a metà di un ciclo, così da avere la porta aperta.
+
+    Estrasse il portatile dallo zaino, lo appoggiò a terra e lo collegò al pannello di controllo. Avrebbe potuto
+    connettersi direttamente al portatile o al pannello, ma non voleva rischiare in qualche Active Firewall. Quei cazzo
+    di sistemi di protezione friggevano i sistemi elettronici. E se era un cervello Cybernetico... Se l'era cercata.
+    Avrebbero dovuto rendere illegale quel tipo di software, sul serio. Era per quello che andava sempre in giro con il
+    suo Laptop Rugged Military Grade. Era un po' lenta quando lo usava come proxy. Ma lenta era meglio di morta o
+    lobotomizzata.
+
+    Lanciò il sistema che faceva lo sniffing dei pacchetti per vedere quali comandi venivano mandati alla porta. Il
+    trucco era lasciare la porta aperta senza far scattare un allarme diagnostico. Perchè, in quel caso, i tizi alla
+    reception avrebbero ricevuto il segnle che qualcosa non andava giù nella sala macchine. Quindi fece partire un ciclo
+    diagnostico. Venti aperture seguite, ognuna, da una chiusura. Sofia controllò il log dei pacchetti. Ogni richiesta
+    di apertura e di chiusura aveva allegato un ID, probabilmente generato a random utilizzando l'ora di sistema precisa
+    al nanosecondo. Ogni volta che la serratura veniva aperta o chiusa la porta mandava in risposta un pacchetto con
+    un ID simile. Quindi il modo migliore sarebbe stato, in quel caso, di intercettare un pacchetto di chiusura,
+    scartarlo e quindi forgiare ed iniettare nel sistema un pacchetto di avvenuta chiusura durante l'ultimo ciclo di test. Oppure mandare una
+    richiesta di apertura forgiata. Ma non sapeva quale fosse il seed di generazione dei numeri random, perciò era
+    meglio farselo produrre direttamente dal sistema stesso.
+
+    Sofia si divertiva a fare quel tipo di cazzatine. Erano degli hacks super fuffa ma comunque la eccitavano. Perchè
+    non importa quanto un hack sia difficile, stai sempre fregando dei Noobs.Agirò le dita sopra la tastiera come i
+    maghi prima di tirare fuori i conigli dal loro cappello. Si era sempre chiesto dove li tenessero. Voglio dire, non è
+    che avevano uno scompartimento segreto nella tuba e si tenevano un coniglietto dentro tutto il tempo, no? Poteva
+    essere che, in uno dei momenti nel qule si buttavano nell'acqua o queste cose così si facessero cambiare il cappello
+    apposta con dentro un coniglietto, no?
+
+    Sofia ebbe un sussulto come quando ci si sveglia di scatto subito dopo essersi addormentati sui banchi di scuola.
+    Doveva hackare la porta, non è cbe avesse molto tempo.
